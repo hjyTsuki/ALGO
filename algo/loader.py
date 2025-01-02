@@ -25,4 +25,10 @@ def get_datasets(dataset_name = "leetcode"):
 
         return dataset
 
+    if dataset_name == "code_contest":
+        from datasets import load_dataset
+        ds = load_dataset("deepmind/code_contests")
+
+        return ds
+
     return None

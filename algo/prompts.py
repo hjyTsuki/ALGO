@@ -31,7 +31,6 @@ As I said before, please make sure you use the most straightforward and brute-fo
 Do not consider any efficiency issue, make the solution as brute-force as possible.
 It's okay for you to enumerate over a very large search space as long as the solution is correct.
 What do you think are some variables that may affect the answer and how do you think they can be enumerated?
-
 """,
     "data_generator": """
 {problem}
